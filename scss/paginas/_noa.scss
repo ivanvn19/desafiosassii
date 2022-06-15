@@ -1,0 +1,28 @@
+.panoramicanoa{
+    padding: 0.7rem;
+    margin: 70px;
+    width: 1200px;
+    @include flexible(column);
+    img{
+        width: 1200px;
+        border-radius: 7px;
+        &:hover{
+            opacity: .7;
+            @include borde(yellow);
+        }
+        @extend .transformacion;
+    }
+
+}
+.galeriaNOA{
+    @include flexible(row);
+    img{
+        width: 300px;
+        border-radius: 7px;
+        &:hover{
+            opacity: .7;
+            @include borde (yellow);
+        }
+    
+    }
+}

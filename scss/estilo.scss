@@ -1,0 +1,34 @@
+$ImagenFondo: url(https://img.freepik.com/foto-gratis/muro-hormigon-gris_53876-88973.jpg?t=st=1652292481~exp=1652293081~hmac=8d4925b971745e18647f3d0d31eff33478563701455c126d7c1d838ac4214cbe&w=1060);
+$FontTit: 'Anton', sans-serif;  
+$FontText:'Roboto Flex', sans-serif;
+@import "base/reset";
+@import "abstracts/mixins";
+@import "abstracts/extends";
+@import "body";
+@import "header";
+@import "footer";
+@import "paginas/index";
+@import "paginas/noa";
+@import "paginas/colecciondestacada";
+@import "paginas/reflejos";
+@import "paginas/contact";
+@import "./componentes/card";
+@import "mediaqueries";
+
+
+.carousel{
+    @include borde (yellow, 0.1rem);
+    
+}
+.titulo-bio{
+    @extend .titulo;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+

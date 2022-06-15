@@ -1,0 +1,8 @@
+.coleccionny{
+    @include flexible(row);
+    img{
+        width: 200px;
+        @extend .transformacion;
+    }
+    margin-bottom: 3rem;
+}

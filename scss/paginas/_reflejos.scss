@@ -1,0 +1,8 @@
+.refcolection{
+    @include flexible(row);
+    img{
+        width: 300px;
+        @include borde(yellow, 0.1rem);
+        @extend .transformacion; 
+        }
+    }

@@ -1,0 +1,17 @@
+.contactMain{
+    @include flexible(row);
+    .formulario{
+        width: 450px;
+        @include borde(black);
+        @include flexible(row);
+        align-items: center auto;
+        align-content: center auto;
+        justify-content: space-around;
+    }
+    .mapa{
+        width: 40%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
